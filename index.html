@@ -26,23 +26,35 @@
     <div id="wrapper">
         <header id="header">
             <h1 id="top"><a href="#"><img src="./images/logo.png" alt="vsp" width="106"></a></h1>
-            <div class="hamburger"><span></span><span></span><span></span></div>
-            <div class="menu">
-                <ul id="gnavi">
-                    <li><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">GIỚI THIỆU</a></li>
-                    <li><a href="#">DỊCH VỤ</a></li>
-                    <li><a href="#">SẢN PHẨM</a></li>
-                    <li><a href="#">TIN TỨC</a></li>
-                    <li><a href="#">LIÊN HỆ</a></li>
-                </ul>
+            <div class="hamburger"><span></span><span></span><span></span><span></span></div>
+            <div class="overlay">
+                <div class="menu">
+                    <ul id="gnavi">
+                        <li><a href="./">TRANG CHỦ</a></li>
+                        <li><a href="https://vsptech.vn/chung-toi-la-ai.html">GIỚI THIỆU</a></li>
+                        <li><a href="https://vsptech.vn/dich-vu.html">DỊCH VỤ</a></li>
+                        <li><a href="https://vsptech.vn/san-pham.html">SẢN PHẨM</a></li>
+                        <li><a href="#">TIN TỨC</a></li>
+                        <li><a href="https://vsptech.vn/lien-he.html">LIÊN HỆ</a></li>
+                        <li class="only_sp">
+                            <p class="contact"><a href="tel:1900633675"><i></i>1900 633 675</a></p>
+                            <form action="https://vsptech.vn/san-pham.html" method="post">
+                                <p class="btn_search">
+                                    <span><i></i></span>
+                                    <input type="text" placeholder="Nhập từ khóa">
+                                </p>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
                 <div class="h_cont">
                     <p class="contact"><a href="tel:1900633675"><i></i>1900 633 675</a></p>
-                    <p class="btn_search">
-                        <!-- <p class="search"><i></i></p> -->
-                        <span><i></i></span>
-                        <input type="text" placeholder="Nhập từ khóa">
-                    </p>
+                    <form action="https://vsptech.vn/san-pham.html" method="post">
+                        <p class="btn_search">
+                            <span><i></i></span>
+                            <input type="text" placeholder="Nhập từ khóa">
+                        </p>
+                    </form>
                     <p class="btn_translate">
                         <i></i>
                         <select name="cars" id="cars">
@@ -57,7 +69,7 @@
         <main id="main">
             <!-- idx_mainvisual -->
             <section id="idx_mainvisual">
-                <figure class="mainv_img"><img src="images/mainv_img.jpg" alt="vsp"></figure>
+                <!-- <figure class="mainv_img"><img src="images/mainv_img.jpg" alt="vsp"></figure> -->
                 <div class="inner">
                     <div class="mainv_cont">
                         <h2>MÀN HÌNH VSP ESPORT GAMING 2K QHD 27INCH - VG273Q</h2>
@@ -71,6 +83,7 @@
 
             <!-- idx_xxx -->
             <section id="idx_product">
+             <div class="inner">
                 <ul class="product_slider slider">
                     <li class="item">
                         <div class="product_card">
@@ -289,147 +302,168 @@
                         </div>
                     </li>
                 </ul>
+             </div>
             </section>
 
             <!-- idx_xxxx -->
             <section id="idx_special">
                 <div class="inner">
                     <h3 class="c-ttl01">HOT - CHƯƠNG TRÌNH ƯU ĐÃI</h3>
+                    <ul class="special_slider slider">
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
+                            <div class="spec_card">
+                                <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
+                                <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="special_slider slider">
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/special_img01.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></figure>
-                        <div class="spec_card">
-                            <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
-                            <p class="spec_btn"><a href="#">CHI TIẾT</a></p>
-                        </div>
-                    </li>
-                </ul>
             </section>
 
             <!-- idx_xxxxx -->
             <section id="idx_banner">
+              <div class="inner">
                 <figure><img src="images/banner01.jpg" alt=""></figure>
-                <figure><img src="images/banner02.jpg" alt=""></figure>
+                <figure><img src="images/banner02.jpg" alt=""></figure></div>
             </section>
 
             <!-- idx_xxxxxx -->
             <section id="idx_release">
                 <div class="inner">
                     <h3 class="c-ttl01">SẢN PHẨM SẮP RA MẮT</h3>
+                    <ul class="release_slider slider">
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PROMAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
+                            <div class="release_card">
+                                <h4>MAINBOARD VSPTECH H61-PRO</h4>
+                                <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                <p class="release_details"><a href="#">Xem chi tiết</a></p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="release_slider slider">
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PROMAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/release_img01.jpg" alt="MAINBOARD VSPTECH H61-PRO"></figure>
-                        <div class="release_card">
-                            <h4>MAINBOARD VSPTECH H61-PRO</h4>
-                            <p class="release_txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
-                            <p class="release_details"><a href="#">Xem chi tiết</a></p>
-                        </div>
-                    </li>
-                </ul>
             </section>
 
             <!-- idx_xxxxxxx -->
             <section id="idx_space">
                 <div class="inner">
-                    <h3 class="c-ttl01">SETUP KHÔNG GIAN LÀM VIỆC</h3>
+                    <div class="box-ttl">
+                        <h3 class="c-ttl01">SETUP KHÔNG GIAN LÀM VIỆC</h3>
+                    </div>
+                    <ul class="space_slider slider">
+                        <li class="item">
+                            <figure><img src="images/space_img01.jpg" alt=""></figure>
+                            <figure><img src="images/space_img02.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img03.jpg" alt=""></figure>
+                            <figure><img src="images/space_img04.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img01.jpg" alt=""></figure>
+                            <figure><img src="images/space_img02.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img03.jpg" alt=""></figure>
+                            <figure><img src="images/space_img04.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img01.jpg" alt=""></figure>
+                            <figure><img src="images/space_img02.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img03.jpg" alt=""></figure>
+                            <figure><img src="images/space_img04.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img01.jpg" alt=""></figure>
+                            <figure><img src="images/space_img02.jpg" alt=""></figure>
+                        </li>
+                        <li class="item">
+                            <figure><img src="images/space_img03.jpg" alt=""></figure>
+                            <figure><img src="images/space_img04.jpg" alt=""></figure>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="space_slider slider">
-                    <li class="item">
-                        <figure><img src="images/space_img01.jpg" alt=""></figure>
-                        <figure><img src="images/space_img02.jpg" alt=""></figure>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/space_img03.jpg" alt=""></figure>
-                        <figure><img src="images/space_img04.jpg" alt=""></figure>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/space_img01.jpg" alt=""></figure>
-                        <figure><img src="images/space_img02.jpg" alt=""></figure>
-                    </li>
-                    <li class="item">
-                        <figure><img src="images/space_img03.jpg" alt=""></figure>
-                        <figure><img src="images/space_img04.jpg" alt=""></figure>
-                    </li>
-                </ul>
             </section>
             <section id="idx_video">
+              <div class="inner">
                 <ul class="video_list">
                     <li>
                         <div class="video_fr"><img src="images/video.jpg" alt="CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY"></div>
@@ -456,8 +490,10 @@
                         <h4>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 7 VUI HÈ LÊN MÁY</h4>
                     </li>
                 </ul>
+              </div>
             </section>
             <section id="idx_news">
+            <div class="inner">
                 <div class="news_cont">
                     <div class="news_left">
                         <a href="#">
@@ -511,6 +547,7 @@
                         </a>
                     </div>
                 </div>
+            </div>
             </section>
             <section id="idx_contact">
                 <figure class="contact_img"><img src="images/contact_img.jpg" alt=""></figure>
@@ -520,19 +557,19 @@
                         <p class="c_txt">Nếu bạn có nhu cầu liên hệ với VSPTECH, vui lòng điền đầy đủ thông tin theo form dưới đây.</p>
                         <div class="c_form">
                             <ul>
-                                <li><input type="text" placeholder="Họ tên *"></li>
-                                <li><input type="text" placeholder="Địa chỉ"></li>
-                                <li><input type="text" placeholder="Email *"></li>
-                                <li><input type="text" placeholder="Điện thoại *"></li>
-                                <li><textarea name="" id="" cols="30" rows="10" placeholder="Nội dung liên hệ *"></textarea></li>
+                                <li><input class="input_txt" type="text" placeholder="Họ tên *"></li>
+                                <li><input class="input_txt" type="text" placeholder="Địa chỉ"></li>
+                                <li><input class="input_txt" type="text" placeholder="Email *"></li>
+                                <li><input class="input_txt" type="text" placeholder="Điện thoại *"></li>
+                                <li class="c-texterea"><textarea class="textarea_txt" name="" id="" cols="30" rows="10" placeholder="Nội dung liên hệ *"></textarea></li>
                                 <li class="cap">
-                                    <p><input type="text" placeholder="Mã bảo mật *"><span><img src="images/cap.png" alt=""></span></p>
-                                    <p class="btn_submit"><input type="submit" name="" id=""></p>
+                                    <p class="cap-box"><input class="input_cap" type="text" placeholder="Mã bảo mật *"><span class="cap-code"><img src="images/cap.jpg" alt="" width="88"></span></p>
+                                    <p class="btn_submit"><input type="submit" name="" id="" value="Gửi"></p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="box_r">
+                    <div class="box_right">
                         <h4 class="c_ttl">ĐỊA CHỈ MUA HÀNG</h4>
                         <ul class="box_select">
                             <li>
@@ -558,9 +595,11 @@
                         </div>
                     </div>
                 </div>
-                <ul class="location">
-                    <li><i></i>TRỤ SỞ CHÍNH: 44A Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh</li>
-                    <li><i></i>TRUNG TÂM BẢO HÀNH VÀ DỊCH VỤ KHÁCH HÀNG : 185 - 189 Âu Cơ, Phường 14, quận 11, TP. Hồ Chí Minh</li>
+                <div class="location">
+                    <ul>
+                        <li><i></i>TRỤ SỞ CHÍNH: 44A Lữ Gia, Phường 15, Quận 11, TP. Hồ Chí Minh</li>
+                        <li><i></i>TRUNG TÂM BẢO HÀNH VÀ DỊCH VỤ KHÁCH HÀNG : 185 - 189 Âu Cơ, Phường 14, quận 11, TP. Hồ Chí Minh</li>
+                    </ul>
                 </ul>
             </section>
         </main>
@@ -582,10 +621,10 @@
                     <div class="f_link">
                         <p class="f_ttl01">Thông tin Công Ty</p>
                         <ul>
-                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="https://vsptech.vn/chung-toi-la-ai.html">Giới thiệu</a></li>
                             <li><a href="#">Tin tức</a></li>
                             <li><a href="#">Cơ hội nghề nghiệp</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="https://vsptech.vn/lien-he.html">Liên hệ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -617,14 +656,15 @@
                     <div class="social">
                         <p class="f_ttl02">Cộng đồng</p>
                         <ul class="soc_list">
-                            <li><a href="#"><img src="images/icon_face.png" alt="facebook" width="40"></a></li>
-                            <li><a href="#"><img src="images/icon_insta.png" alt="instagram" width="40"></a></li>
-                            <li><a href="#"><img src="images/icon_in.png" alt="in" width="40"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/icon_face.png" alt="facebook" width="40"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/icon_insta.png" alt="instagram" width="40"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/icon_youtube.png" alt="youtube" width="40"></a></li>
+                            <li><a href="#" target="_blank"><img src="images/icon_in.png" alt="in" width="40"></a></li>
                         </ul>
                     </div>
                     <div class="logo_box">
                         <p class="f_ttl02">CTY TNHH CÔNG NGHỆ THÔNG TIN TECH VISION</p>
-                        <p class="f_logo"><a href="#"><img src="images/logo_f.png" alt="VSPTECH" width="102"></a></p>
+                        <p class="f_logo"><a href="./"><img src="images/logo_f.png" alt="VSPTECH" width="102"></a></p>
                         <address>Giấy chứng nhận ĐKKD số: 0312480136<br>do Sở KH & ĐT TPHCM cấp lần đầu ngày 27/09/2013</address>
                     </div>
                 </div>
